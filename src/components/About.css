@@ -82,3 +82,23 @@
     transform: scale(1.1);
  
  }
+
+
+
+ @media screen and (max-width :768px) {
+
+   .about-component .heading{
+       font-size: 30PX;
+    }
+  
+   .about-component img{
+      height: 400PX;
+      width: 400PX;
+      object-fit: cover;
+   }
+
+
+   }
+  
+ 
+ 

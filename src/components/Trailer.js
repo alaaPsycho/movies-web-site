@@ -17,7 +17,7 @@ function Trailer() {
                   
                    <div className='col-sm-12 '>
                        <h1 className='d-flex justify-content-center'>matrix</h1>
-                   <iframe  width="560" height="315" src="https://www.youtube.com/embed/nNpvWBuTfrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                   </div>
+                   <iframe  width="400" height="315" src="https://www.youtube.com/embed/nNpvWBuTfrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                   </div>
 
                    <div className='col-sm-12 d-flex justify-content-between'>
                         <div className='content'>
@@ -37,7 +37,7 @@ function Trailer() {
 
                    <div className='col-sm-12 '>
                        <h1 className='d-flex justify-content-center'>batman</h1>
-                   <iframe width="560" height="315" src="https://www.youtube.com/embed/g5zFRJlFK4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <iframe width="400" height="315" src="https://www.youtube.com/embed/g5zFRJlFK4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                    </div>
                    <div className='col-sm-12 d-flex justify-content-between'>
                         <div className='content'>
@@ -57,7 +57,7 @@ function Trailer() {
           <hr></hr>
           <div className='col-sm-12 '>
                        <h1 className='d-flex justify-content-center'>batman</h1>
-                       <iframe width="560" height="315" src="https://www.youtube.com/embed/beToTslH17s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                   </div>
+                       <iframe width="400" height="315" src="https://www.youtube.com/embed/beToTslH17s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                   </div>
           <div className='col-sm-12 d-flex justify-content-between'>
                         <div className='content'>
                             <p>Scream | Official Trailer (2022 Movie)</p>

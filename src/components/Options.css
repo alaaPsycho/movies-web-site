@@ -29,3 +29,27 @@
 
 }
 
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768PX){
+ 
+    
+    .options .content  h1{
+        font-weight: bold;
+        font-size: 20PX;
+        margin:20PX 0
+    
+    }
+    
+    .options .content  p{
+        color: #aaa;
+        font-size: 16PX;
+    }
+}

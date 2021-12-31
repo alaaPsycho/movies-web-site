@@ -134,6 +134,10 @@
 
 
  @media screen and (max-width:768PX) {
+  .about-component .heading{
+    font-size: 30PX;
+ }
+
   .sign-up-component{
     position: absolute;
     left: 50%;

@@ -67,3 +67,43 @@
         
 
 
+  
+
+
+          @media  screen and (max-width:768PX) {
+
+            .about-component .heading{
+              font-size: 30PX;
+           }
+            .trailer .content p:first-of-type {
+              font-size: 14PX;
+              font-weight: bold;
+           
+             }
+           
+             .trailer .content p:last-of-type {
+               font-size: 12PX;
+               color: rgb(145, 142, 142);
+              }
+
+
+              .trailer  .icons {
+                margin-top: 0;
+                }
+                .trailer  .icons i{
+                 margin: 0 10PX;
+                 font-size: 15PX;
+                 cursor: pointer;
+                 }
+              
+             
+              
+                 .trailer  .icons span{
+                   margin-right: 0;
+                  
+                   }
+         
+
+
+          }
+

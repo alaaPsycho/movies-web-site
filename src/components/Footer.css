@@ -40,7 +40,7 @@
   }
 
 
-  .footer .subscribe input:hover{
+  .footer .subscribe input:focus{
     box-shadow: 0PX  2PX 4PX #e91e63;
   }
 
@@ -101,7 +101,7 @@
 
 .footer .about p{
   color: #fff;
-  line-height: 33PX;
+  line-height: 20PX;
 }
 
 
@@ -130,3 +130,21 @@
   font-weight: bolder;
   
 }
+
+
+
+
+
+
+
+
+@media screen and (max-width :768px) {
+
+  .footer .subscribe input{
+    width: 300PX;
+    margin-bottom:20PX;
+   
+  }
+  }
+ 
+

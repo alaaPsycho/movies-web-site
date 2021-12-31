@@ -35,7 +35,7 @@ function Footer() {
                     <div className='col-lg-4 about'>
                         <h3>about me</h3>
                         <img src='https://image.freepik.com/free-vector/portrait-programmer-working-with-pc_23-2148218046.jpg' />
-                        <p>I am a front end developer with these skills: 
+                        <p>tahar alaa a front end developer with these skills: 
                        <span> vanilla-js jquery react-js  vue-js bootstrap php mysql</span> 
                                                                 </p>
                     </div>

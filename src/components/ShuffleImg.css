@@ -65,3 +65,25 @@
     object-fit: fill;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768PX){
+  .about-component .heading{
+    font-size: 30PX;
+ }
+  .buttons ul li{
+    display: block;
+   
+  
+ }
+}
