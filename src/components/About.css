@@ -1,0 +1,84 @@
+.about-component {
+  
+}
+.about-component .heading{
+    letter-spacing: 10PX;
+    margin: 0 auto 100PX;
+     text-transform: uppercase;
+     text-align: left;
+     font-size: 50PX;
+     font-weight: bold;
+     line-height: 1.5em;
+     position: relative;
+     padding-top: 100PX;
+  }
+  
+  
+  
+    .about-component .heading:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 5px;
+      width:100px;
+      background-color: #e91e63;
+    }
+    .about-component .heading:after {
+      content: "";
+      position: absolute;
+      left: 100PX;
+      bottom: 2px;
+      height: 1px;
+      width: 95%;
+     max-width: 300PX;
+      background-color: #111;
+    }
+
+
+
+
+    .about-component  button{
+        padding: 20PX 28PX;
+        background-color: #e91e63;
+        color: #fff;
+        font-size: 18PX;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 2PX;
+     
+     }
+     .about-component  button:hover{
+        transform: scale(1.1);
+     
+     }
+    
+     .about-component img{
+        height: 400PX;
+        width: 600PX;
+        object-fit: cover;
+     }
+    
+    
+
+
+
+
+
+
+
+.contact-us .textArea-app button{
+    padding: 20PX 38PX;
+    background-color: #e91e63;
+    color: #fff;
+    font-size: 18PX;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 2PX;
+    width: 100%;
+ 
+ }
+ .contact-us .textArea-app button:hover{
+    transform: scale(1.1);
+ 
+ }

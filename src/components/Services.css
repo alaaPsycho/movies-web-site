@@ -1,0 +1,89 @@
+.services {
+  }
+
+  .services .content{
+     
+      
+}
+
+.services .content h3{
+    font-size: 30PX;
+    font-weight: bold;
+}
+
+.services .content p{
+   color: #bbb;
+  line-height: 1.8rem;
+}
+
+.services .heading{
+    letter-spacing: 10PX;
+    margin: 0 auto 100PX;
+     text-transform: uppercase;
+     text-align: left;
+     font-size: 50PX;
+     font-weight: bold;
+     line-height: 1.5em;
+     position: relative;
+  }
+  
+  
+  
+    .services .heading:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 5px;
+      width:100px;
+      background-color: #e91e63;
+    }
+    .services .heading:after {
+      content: "";
+      position: absolute;
+      left: 100PX;
+      bottom: 2px;
+      height: 1px;
+      width: 95%;
+     max-width: 300PX;
+      background-color: #111;
+    }
+  
+
+
+    .services .app-services-icons {
+        display: flex;
+       justify-content: center;
+       flex-direction: row-reverse;
+     
+      }
+    
+     .services .app-services-icons .services-icons{
+       padding: 20PX;
+       box-shadow: 0 5PX 10PX rgba(0, 0, 0, .8);
+      margin: 0 5PX;
+      }
+
+      .services .app-services-icons .services-icons img{
+        height: 100PX;
+        width: 100PX;
+       }
+
+
+
+       .services .content button{
+        padding: 20PX 38PX;
+        background-color: #e91e63;
+        color: #fff;
+        font-size: 18PX;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 2PX;
+     
+     }
+     .services .content button:hover{
+        transform: scale(1.1);
+     
+     }
+    
+         

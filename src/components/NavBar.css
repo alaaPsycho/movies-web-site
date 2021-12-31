@@ -1,0 +1,128 @@
+*{
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    transition: all .3s ease;
+
+}
+
+.navBar{
+    width: 100%;
+    background-color: #f7f7f7;
+    box-shadow: 0 3PX 6PX black;
+    padding: 8PX 0;
+    z-index: 9999;
+    position: fixed;
+    
+}
+
+.navBar .boxApp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20PX;
+    flex-wrap: nowrap;
+}
+
+.navBar .boxApp .navBar-brand{
+cursor: pointer;
+    font-size: 20PX;
+}
+
+
+.navBar .boxApp .app-input{
+    margin-left: 50PX;
+    position: relative;
+   
+    }
+    .navBar .boxApp .app-input i{
+        cursor: pointer;
+        color: #bbb;
+        font-size: 20PX;
+         }
+    .navBar .boxApp .app-input i:hover{
+       color: #e91e63;
+        }
+    .navBar .boxApp .app-input i:first-of-type{
+        position: absolute;
+       left:80%;
+       top: 0PX;
+       font-size: 20PX;
+       border-left: solid 1px rgba(219,219,219,1);
+        padding: 8PX 6PX;
+       
+        }
+    
+       
+
+    .navBar .boxApp .app-input input{
+        border: none;
+        outline: none;
+       font-size: 16PX;
+     border: solid 1px rgba(219,219,219,1);
+    border-radius: 3px;
+    padding: 8px 12px;
+    transition: all .3s linear;
+        }
+        .navBar .boxApp .app-input input:focus{
+           border: 1Px solid#e91e63; ;
+            }
+      
+.navBar .boxApp .app-link a{
+       margin: 0 10PX;
+        } 
+
+        .navBar .boxApp .app-link i{
+           
+        
+        color: #bbb;
+                
+                } 
+        
+
+                .navBar .boxApp .app-link i.active{
+                 color:#e91e63 ;
+                     } 
+
+
+
+
+
+
+
+
+
+/*media*/
+
+
+
+
+@media screen and (max-width :768px) {
+    .navBar .boxApp .app-input input{
+     margin-bottom: 5PX;
+        }
+
+
+        .navBar .boxApp .app-input i:first-of-type{
+           border: none;
+           
+            }   
+
+
+            .navBar .boxApp .app-link i{
+           
+        
+           font-size: 25PX;
+                        
+                        }                      
+}
+
+
+
+
+
+
+
+
+
+                            

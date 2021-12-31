@@ -1,0 +1,159 @@
+.heroCarousel{
+    height: calc(100vh - 50PX);
+   
+
+}
+.carouselApp .overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: calc(100vh - 50PX);
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.carouselApp .overlay .content{
+position: absolute;
+left: 50%;
+top:50%;
+transform: translate(-50%,-50%);
+}
+.carouselApp .overlay .content h1{
+color: #fff;  
+font-size: 50PX;
+font-weight: bold;
+}
+    
+.carouselApp .overlay .content p{
+    color: #ddd;  
+    font-size: 15PX;
+    font-weight: bold;
+    width: 500PX;
+    }
+    
+    .carouselApp .overlay .content button{
+        padding: 12PX 18PX;
+        background-color: #fff;
+        color: #e91e63;
+        font-size: 18PX;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 2PX;
+        
+        }
+        
+        .carouselApp .overlay .content button:hover{
+            transform: scale(1.1);
+         
+         }
+        
+.carouselApp{
+   /* background-color: black;*/
+
+}
+.carousel-inner{
+    height: 100%;
+
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+
+
+}
+
+#indicat{
+    height: 50PX;
+    width: 50PX;
+    background-size: cover;
+    background-color: transparent;
+    z-index: 1000;
+}
+
+#indicat:first-of-type{
+    background: url('https://images4.alphacoders.com/118/thumb-1920-1185748.jpg') center center no-repeat;
+    background-size: cover;
+  
+    width: 140PX;
+}
+
+#indicat:nth-child(2){
+    background: url('https://wallpaper.dog/large/10915262.jpg') center center no-repeat;
+    background-size: cover;
+  
+    width: 180PX;
+}
+
+
+#indicat:nth-child(3){
+   
+    background: url('https://wallpaperaccess.com/full/6366.jpg') center center no-repeat;
+    background-size: cover;
+    width: 220PX;
+}
+
+#indicat:nth-child(4){
+   
+    background: url('https://wallpapercave.com/wp/wp1869905.jpg') center center no-repeat;
+    background-size: cover;
+    width: 260PX;
+}
+
+#indicat:nth-child(5){
+   
+    background: url('https://www.pixelstalk.net/wp-content/uploads/2015/12/Batman-cover-movie-twitter-background-tvshows-movies-wallpaper.jpg') center center no-repeat;
+    background-size: cover;
+    width: 300PX;
+}
+
+
+
+#indicat:nth-child(6){
+   
+    background: url('https://wallpaper.dog/large/20493435.jpg') center center no-repeat;
+    background-size: cover;
+    width: 500PX;
+    transform: scale(1.0.5);
+  
+}
+
+#indicat:nth-child(7){
+   
+    background: url('https://wallpaperaccess.com/full/1077150.jpg') center center no-repeat;
+    background-size: cover;
+    width: 500PX;
+    transform: scale(1.0.5);
+}
+#indicat:nth-child(8){
+   
+    background: url('https://wallpapercave.com/wp/wp3982534.jpg') center center no-repeat;
+    background-size: cover;
+    width: 300PX;
+}
+
+#indicat:nth-child(9){
+   
+    background: url('https://wallpaperaccess.com/full/655207.jpg') center center no-repeat;
+    background-size: cover;
+    width: 260PX;
+}
+
+#indicat:nth-child(10){
+   
+    background: url('https://wallpaper.dog/large/20379186.jpg') center center no-repeat;
+    background-size: cover;
+    width: 220PX;
+}
+
+#indicat:nth-child(11){
+   
+    background: url('https://wallpaperaccess.com/full/1342438.jpg') center center no-repeat;
+    background-size: cover;
+    width: 180PX;
+}
+
+#indicat:nth-child(12){
+   
+    background: url('https://me2t.com/wp-content/uploads/2021/07/3d-animation-movies-wallpaper-inspirational-3d-movies-anime-wallpapers-wallpaper-cave-of-3d-animation-movies-wallpaper.jpg') center center no-repeat;
+    background-size: cover;
+    width: 140PX;
+}
+

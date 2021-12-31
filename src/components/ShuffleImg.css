@@ -1,0 +1,67 @@
+
+.shuffleImg .heading {
+  letter-spacing: 10PX;
+  margin: 0 auto 100PX;
+   text-transform: uppercase;
+   text-align: left;
+   font-size: 50PX;
+   font-weight: bold;
+   line-height: 1.5em;
+   position: relative;
+  }
+
+  .shuffleImg .col-lg-12:nth-child(2) {
+    margin: 20PX;
+    }
+
+
+ 
+  .shuffleImg .heading:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width:100px;
+    background-color: #e91e63;
+  }
+  .shuffleImg .heading:after {
+    content: "";
+    position: absolute;
+    left: 100PX;
+    bottom: 2px;
+    height: 1px;
+    width: 95%;
+   max-width: 300PX;
+    background-color: #111;
+  }
+  
+  
+.buttons ul li{
+   display: inline;
+   margin: 20PX 10PX ;
+   padding: 12PX 18PX;
+   background-color: rgba(0, 0, 0, .5);
+   color: #fff;
+   font-size: 18PX;
+   font-weight: bold;
+   text-decoration: none;
+   border-radius: 2PX;
+    cursor: pointer;
+}
+.buttons ul li.active{
+    background-color: #e91e63;
+ }
+
+ .shuffleImg .item{
+     margin: 20PX;
+     display: inline-block;
+     
+ }
+
+ .shuffleImg .item img{
+    width: 200PX;
+    height: 100PX;
+    object-fit: fill;
+    
+}

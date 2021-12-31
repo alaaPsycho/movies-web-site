@@ -1,0 +1,31 @@
+.options{
+}
+
+.options .content{
+    
+}
+
+
+.options .content  i{
+    background-color: #e91e63;
+    margin:10PX 0;
+    border-radius: 50%;
+    height: 160PX;
+    width: 160PX;
+    line-height: 160PX;
+    color: #fff;
+
+}
+
+.options .content  h1{
+    font-weight: bold;
+    font-size: 30PX;
+    margin:20PX 0
+
+}
+
+.options .content  p{
+    color: #aaa;
+
+}
+

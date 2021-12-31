@@ -1,0 +1,55 @@
+.offers{
+    background-color: black;
+    
+    
+}
+.offers .content{
+    padding-top: 20PX;
+    padding-bottom: 20PX;
+    width: 100%;
+}
+.offers .content h1{
+   text-transform: uppercase;
+    color: #fff;
+    font-size: 40PX;
+   
+    
+}
+.offers .content p{
+    text-transform: uppercase;
+     color: #f6f6f6;
+     font-size: 20PX;
+     
+ }
+
+ .offers .content button{
+    padding: 20PX 38PX;
+    background-color: #fff;
+    color: #e91e63;
+    font-size: 18PX;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 2PX;
+ 
+ }
+ .offers .content button:hover{
+    transform: scale(1.1);
+ 
+ }
+
+
+
+ .offers .img-container{
+    height: 300PX;
+    width: 300PX;
+   margin: 50PX 100PX;
+ }
+
+ .offers .img-container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit:cover;
+
+ 
+ }

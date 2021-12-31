@@ -1,0 +1,132 @@
+.footer{
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.footer .icons{
+    padding: 20PX;
+    margin:20PX 40PX ;
+}
+
+.footer .icons a{
+    padding: 20PX;
+    
+}
+
+.footer .icons a i{
+   color: #e91e63;;
+   transition: all .2s linear;
+   
+}
+
+.footer .icons a i:hover{
+   transform: scale(1.1);
+    
+ }
+
+
+ .footer .subscribe p{
+    color: #fff;
+    display: inline-block;
+    
+  }
+ .footer .subscribe input{
+    
+    margin: 0 20PX;
+    height: 30PX;
+    width: 500PX;
+    font-size: 20PX;
+    border-radius: 3px;
+    transition: all .2s linear;
+  }
+
+
+  .footer .subscribe input:hover{
+    box-shadow: 0PX  2PX 4PX #e91e63;
+  }
+
+
+
+  .footer .subscribe button{
+    padding: 12PX 18PX;
+    background-color: #fff;
+    color: #e91e63;
+    font-size: 18PX;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 2PX;
+    transition: all .2s linear;
+
+ 
+ }
+
+
+
+.footer .subscribe button:hover{
+  background-color: #e91e63;
+  color: #fff;
+ 
+  
+
+}
+
+.footer img{
+    height:50PX;width:50PX;
+  border-radius: 50PX;
+}
+
+
+.footer .links, .footer .contact,.footer .about{
+  margin: 40PX 0 0PX;
+
+}
+.footer .links, .footer .contact,.footer .about h3{
+  color: #fff;
+}
+
+.footer .links a , .footer .contact a ,.footer .about a {
+  color: #fff;
+  
+}
+
+.footer .links a i, .footer .contact a i,.footer .about a i{
+  color: #e91e63;
+  
+}
+
+.footer .links a, .footer .contact a{
+  display: block;
+  line-height: 40PX;
+  text-decoration: none;
+}
+
+.footer .about p{
+  color: #fff;
+  line-height: 33PX;
+}
+
+
+.footer .about p span{
+  color: #e91e63;
+  font-weight: bold;
+}
+
+
+.footer .copy-right{
+ /* box-shadow:   0PX 4PX 12PX #e91e63;*/
+  box-shadow:   0PX 0PX 8PX #e91e63;
+  margin-bottom: 0;
+  padding:15PX 0PX 0;
+  border-radius: 3px;
+}
+
+.footer .copy-right p{
+  color: #fff;
+  
+}
+
+
+.footer .copy-right p span{
+  color: #e91e63;
+  font-weight: bolder;
+  
+}

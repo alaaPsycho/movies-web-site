@@ -1,0 +1,55 @@
+.contact-us{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.contact-us h1{
+    color: #fff;
+}
+.contact-us p{
+    color: #fff;
+    letter-spacing: 10PX;
+}
+
+.contact-us .inputs .input-app,.contact-us .textArea-app{
+    padding: 20PX;
+}
+
+.contact-us .inputs .input-app i{
+   color: #e91e63;
+  }
+.contact-us .inputs .input-app input{
+  outline: none;
+  perspective: none;
+  font-size: 24PX;
+  background-color:transparent;
+  border-radius: 3PX;
+  width: 400PX;
+  color: #000;
+  margin: 0 10PX;
+  background-color: #fff;
+  
+}
+
+
+.contact-us .textArea-app textarea{
+    height: 130PX;
+    width: 100%;
+    border:  1px solid #fff;;
+}
+
+.contact-us .textArea-app button{
+    padding: 20PX 38PX;
+    background-color: #fff;
+    color: #e91e63;
+    font-size: 18PX;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 2PX;
+    width: 100%;
+ 
+ }
+ .contact-us .textArea-app button:hover{
+    transform: scale(1.1);
+ 
+ }

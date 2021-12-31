@@ -1,0 +1,159 @@
+.sign-up-component .heading{
+    letter-spacing: 10PX;
+    margin: 0 auto 100PX;
+     text-transform: uppercase;
+     text-align: left;
+     font-size: 50PX;
+     font-weight: bold;
+     line-height: 1.5em;
+     position: relative;
+     padding-top: 100PX;
+  }
+  
+  
+  
+    .sign-up-component .heading:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 5px;
+      width:100px;
+      background-color: #e91e63;
+    }
+    .sign-up-component .heading:after {
+      content: "";
+      position: absolute;
+      left: 100PX;
+      bottom: 2px;
+      height: 1px;
+      width: 95%;
+     max-width: 300PX;
+      background-color: #111;
+    }
+  
+
+
+
+
+.sign-up-component{
+  margin-bottom: 20PX;
+}
+
+.sign-up-component .app-icon{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30PX;
+  
+   }
+
+   .sign-up-component .app-icon .child-icon{
+   border-radius: 20PX;
+    background-color: #fff;
+    padding:3PX 5PX;
+    cursor: pointer;
+     }
+
+     .sign-up-component .app-icon .child-icon:hover{
+        
+        background-color: rgba(255, 255, 255, 0.897);
+
+          }
+     
+
+
+     .sign-up-component .app-icon .child-icon i{
+       color: rgb(18, 129, 194);
+          }
+   .sign-up-component .form-up img{
+  width: 500PX;
+  height: 500PX;
+}
+
+   .sign-up-component .form-up form{
+    width: 500PX;
+    padding: 0;
+    box-shadow: 0 5PX 10PX black;
+    padding:50PX 50PX;
+    border-radius: 6PX;
+   background: url('https://flevix.com/wp-content/uploads/2019/12/Live-Wave-Background.svg')
+   center center no-repeat;
+   }
+.sign-up-component form .app-input{
+ padding: 15PX 0;
+
+}
+
+.sign-up-component form .app-input input{
+    width: 100%;
+    height: 40PX;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20PX;
+   
+   }
+
+
+   .sign-up-component form p:first-of-type{
+   color: #fff;
+   font-weight: bold;
+   font-size: 20PX;
+
+   
+   }
+
+
+   .sign-up-component form p:last-of-type{
+       margin-top: 10PX;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15PX;
+ 
+    
+    }
+ 
+
+   .sign-up-component form button{
+    padding: 20PX 28PX;
+    background-color: #fff;
+    color: #e91e63;
+    font-size: 18PX;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 2PX;
+ 
+ }
+ .sign-up-component form button:hover{
+    transform: scale(1.1);
+ 
+ }
+
+
+
+
+
+ @media screen and (max-width:768PX) {
+  .sign-up-component{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+
+  .sign-up-component .form-up form{
+    width: 400PX;
+
+    margin-bottom: 50PX;
+   }
+
+
+   .sign-up-component .heading{
+     font-size: 40PX;
+  }
+
+  .sign-up-component .form-up img{
+    width: 400PX;
+    height: 400PX;
+  }
+ }

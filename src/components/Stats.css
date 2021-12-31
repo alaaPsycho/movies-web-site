@@ -1,0 +1,29 @@
+.stats{
+    background-color: #f7f7f7;
+  
+}
+.stats .stats-container{
+    
+    
+}
+
+.stats-box{
+    margin-bottom: 30PX;
+}
+.stats i{
+    color: #e91e63;;
+}
+
+.stats span{
+    display: block;
+    font-size: 50PX;
+    font-weight: bold;
+    color: #bbb;
+}
+.stats p{
+    color: rgba(0, 0, 0, .8);
+    font-weight: bold;
+    font-size: 20PX;
+}
+
+  

@@ -1,0 +1,50 @@
+
+.slider .heading{
+  letter-spacing: 10PX;
+  margin: 0 auto 100PX;
+   text-transform: uppercase;
+   text-align: left;
+   font-size: 50PX;
+   font-weight: bold;
+   line-height: 1.5em;
+   position: relative;
+}
+
+
+
+  .slider .heading:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width:100px;
+    background-color: #e91e63;
+  }
+  .slider .heading:after {
+    content: "";
+    position: absolute;
+    left: 100PX;
+    bottom: 2px;
+    height: 1px;
+    width: 95%;
+   max-width: 300PX;
+    background-color: #111;
+  }
+  .slider .carousel-inner{
+    border-radius: 6PX;
+  }
+
+
+  .slider .carousel-item img{
+    height: 600PX;
+    max-width: 100%;
+    object-fit: cover;
+
+  }
+
+  .slider .carousel-item .carousel-caption{
+    background-color: #111;
+    margin-bottom: 30PX;
+  
+  }
