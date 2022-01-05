@@ -1,6 +1,8 @@
 import React from 'react';
 import './Offers.css'
 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 function Info() {
     return (
         <div className='offers'>
@@ -19,7 +21,7 @@ function Info() {
 
                 <div className='col-lg-4'>
                     <div className='img-container'>
-                        <img src='https://parade.com/wp-content/uploads/2019/06/SOUL.png'/>
+                        <img data-aos='fade-in' src='https://parade.com/wp-content/uploads/2019/06/SOUL.png'/>
                     </div>
                 </div>
 

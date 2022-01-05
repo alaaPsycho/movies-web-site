@@ -1,0 +1,12 @@
+.scroll-top{
+    position: fixed;
+    right: 5PX;
+    bottom:  15PX;
+    z-index: 9999;
+    width: 50PX;
+    height: 50PX;
+    border-radius: 50PX;
+    color: #fff;
+    background-color: #e91e63;
+    cursor: pointer;
+}

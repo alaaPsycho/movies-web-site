@@ -9,6 +9,7 @@ import Services from '../components/Services'
 import ContactUs from '../components/ContactUs'
 import Stats from '../components/Stats'
 import Offers from '../components/Offers'
+import ScrollTop from '../components/ScrollTop'
 function home() {
     return (
         <div>
@@ -22,6 +23,7 @@ function home() {
             <ContactUs />
             <Stats />
             <Offers />
+            <ScrollTop />
         
 
         </div>

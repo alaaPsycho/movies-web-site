@@ -2,9 +2,11 @@ import React,{useEffect} from 'react';
 import './Hero.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 function Hero() {
     useEffect(() => {
-
+      Aos.init({duration:2000})
     }, [])
     return (
 
@@ -12,7 +14,7 @@ function Hero() {
           <div  className='overlay'>
           <div className='content'>
             
-            <h1>best movies</h1><p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. Wikipedia</p>
+            <h1     data-aos-easing="ease-in-out"data-aos-mirror="true" data-aos='zoom-in'>best movies</h1><p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. Wikipedia</p>
             <button>more movies</button>
             </div>
             </div>
@@ -49,7 +51,7 @@ function Hero() {
       <img src="https://wallpapercave.com/wp/wp1869905.jpg" class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="https://www.pixelstalk.net/wp-content/uploads/2015/12/Batman-cover-movie-twitter-background-tvshows-movies-wallpaper.jpg" class="d-block w-100" alt="..."/>
+      <img src="https://images3.alphacoders.com/932/thumb-1920-932825.jpg" class="d-block w-100" alt="..."/>
     </div>
  
 
